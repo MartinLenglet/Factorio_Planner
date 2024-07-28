@@ -1,0 +1,68 @@
+/* App.css */
+.app {
+  padding: 20px;
+  background-color: rgb(51, 51, 51);
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  background: rgb(141, 92, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.factory-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.factory-panel-arrow {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.factory-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-left: 10px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.factory-actions {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.arrow-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.remove-factory-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+}

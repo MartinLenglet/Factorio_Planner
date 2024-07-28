@@ -1,0 +1,71 @@
+/* FactoryComponent.css */
+.factory-component {
+  padding: 10px;
+  margin: 10px 0;
+  position: relative;
+  width: 85%;
+  flex: 1;
+}
+
+.factory-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.remove-factory-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.facility-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.remove-facility-button {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.action-button {
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+.factory-table {
+  border-collapse: collapse;
+  /* width: 100%; */
+}
+
+.factory-table th,
+.factory-table td {
+  border: 1px solid black; /* Set the border for table cells */
+  padding: 7px; /* Add padding for better readability */
+  background-color: #a09e9e;
+}
+
+.factory-table th {
+  background-color: #cac9c9; /* Optional: Add background color to table headers */
+}
+
+.list-inputs {
+  padding-left: 15px
+}

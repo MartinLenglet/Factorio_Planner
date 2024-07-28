@@ -1,0 +1,12 @@
+.facility-component {
+  display: flex;
+  align-items: center;
+}
+
+.facility-component select {
+  margin-right: 10px;
+}
+
+.facility-component input {
+  margin-right: 10px;
+}
