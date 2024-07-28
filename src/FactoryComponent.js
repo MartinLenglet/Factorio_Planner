@@ -251,10 +251,10 @@ const FactoryComponent = ({ factory, onUpdate }) => {
 
               <td>
                 <button onClick={() => moveFacilityUp(index)} className="arrow-button">
-                  <img src="/images/up-arrow.svg" alt="Up" />
+                  <img src={`${process.env.PUBLIC_URL}/images/up-arrow.svg`} alt="Up" />
                 </button>
                 <button onClick={() => moveFacilityDown(index)} className="arrow-button">
-                  <img src="/images/down-arrow.svg" alt="Down" />
+                <img src={`${process.env.PUBLIC_URL}/images/down-arrow.svg`} alt="Down" />
                 </button>
               </td>
 

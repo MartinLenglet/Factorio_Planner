@@ -90,10 +90,10 @@ const App = () => {
           <div key={factory.id} className="factory-panel-arrow">
             <div className="factory-actions">
               <button onClick={() => moveFactoryUp(index)} className="arrow-button">
-                <img src="/images/up-arrow.svg" alt="Up" />
+                <img src={`${process.env.PUBLIC_URL}/images/up-arrow.svg`} alt="Up" />
               </button>
               <button onClick={() => moveFactoryDown(index)} className="arrow-button">
-                <img src="/images/down-arrow.svg" alt="Down" />
+                <img src={`${process.env.PUBLIC_URL}/images/down-arrow.svg`} alt="Down" />
               </button>
             </div>
             <FactoryPanel
